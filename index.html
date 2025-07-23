@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Shooter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #scoreBoard {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #restartButton {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #scoreHistory {
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="scoreBoard">Score: 0</div>
+    <button id="restartButton">Restart Game</button>
+    <canvas id="gameCanvas"></canvas>
+    <div id="scoreHistory">Score History: </div>
+    <script src="script.js"></script>
+</body>
+</html>
